@@ -164,6 +164,7 @@ createSlider('#slide5', programimg1, 1300);
 createSlider('#slide7', programimg2, 1400);
 createSlider('#slide8', programimg3, 1500);
 createSlider('#slide9', programimg4)
+
 // let currentIndex1 = 0;
 // const slide2Element = document.querySelector('#slide2');
 
@@ -173,9 +174,9 @@ createSlider('#slide9', programimg4)
 //         slide2Element.src = imgs1[currentIndex1];
 //     }, 1200);
 // }
+
 };
 autoScroll();
-
 
 // Video play/pause
 function videocontrol() {
@@ -219,4 +220,3 @@ document.addEventListener('keydown', (e) => {
 });
 };
 videocontrol();
-
