@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tverrfaglig prosjekt VG1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Tverrfaglig prosjekt VG<span class="en">1</span></h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="om.html">Om meg</a></li>
+            <li><a href="tech.html">Teknologi</a></li>
+            <li><a href="yff.html">YFF</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="program.html">Programmering</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- TEKNOLOGI -->
+        <section id="teknologi" class="section tech">
+            <h2>Teknologiforståelse</h2>
+
+            <h3>Raspberry Pi blinkene lys</h3>
+            <video controls src="../videos/blink.mp4" class="blink img"  id="blik"></video>
+            <p>Resultat av å prøve å lag en type blinkene lys som virker i rekkefølge av grønn(treg), gul(rask) og rød(stopp) ved hjelp av python.</p>
+            <br>
+            <p>Denne oppgaven hjalp meg skjønne bedre hvordan søke etter informasjon som ikke var rett foran meg, spøring av hjelp på kode jeg ikke kan og hvordan omformere kode jeg ikke har møtt på ofte eller ikke idet hele tatt</p>
+            <br>
+            <p>Jeg ble stolt over hvordan jeg klarte å omformere kode som var helt ny for meg (med litt hjelp)</p>
+
+            <br>
+
+            <h3>Space Shooter</h3>
+            <h3>GIF</h3>
+            <img src="../img/tech/Space1.png" alt="Space shooter spill" id="slide3" class="img">
+            <p>Dette er resultatet mitt av å prøve å følge et tutorial på å lage et simpelt 3d spill med hjelp av game enginen Godot</p>
+            <br>
+            <p>Denne oppgaven hjalp med å forstå grunnleggende begreper og kosepter på hvordan simpel 3D game development virker, Hvordan feilsøke hvorfor kode ikke fungerer som forventet, hvordan fikse det, og hvordan bevege seg rundt med et dårlig kamera.</p>
+            <br>
+            <p>Jeg ble stolt over hvordan jeg klarte oppgaven selv gjennom hvor mange problemer kom gjennom hele tingen med ikke fungerende kode</p>
+
+            <br>
+
+            <h3>KI Generering</h3>
+            <img src="../img/tech/KI.jpg" alt="KI generering" class="img">
+            <br class="half">
+            <p class="gitgud">Dette bildet er resulatatet av å bruke et simpel ki prompt på <a href="https://leonardo.ai/ai-image-generator">Leonardo.ai</a></p>
+            <br>
+            <p>En av strukturene du kan bruke på generering er:
+                <br> 
+            quality prompts, character identity, face(eyes, face), body(klær, kropp struktur),background(beach/forest/bedroom/sci-fi)</p>
+            <br class="half">
+            <p>når du skriver det burde du som regel bruke Stikkord(tags) eller korte settninger(tells ikke på ting lignende på gemini eller chatgpt, bare på de som bruker stable diffusion)</p>
+            <br>
+            <p>Et tips er å bruke weighting (parenteser) for å justere fokus i et prompt. Bruk det kun på de viktigste elementene, ellers kan det skape distortion. Standard fokus er 1.0 (100%), mens f.eks. (masterpiece:1.2) øker til 120%. Hold deg helst mellom 1.1-1.35, og aldri over 1.45. Du kan også redusere fokus med [masterpiece:0.7].</p>
+        </section>
+    </main>
+
+    <button class="left"><</button>
+    <button class="right">></button>
+
+    <script src="../JS/index.js" defer></script>
+</body>
+
+</html>

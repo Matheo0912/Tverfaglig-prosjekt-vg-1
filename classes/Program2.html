@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tverrfaglig prosjekt VG1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Tverrfaglig prosjekt VG<span class="en">1</span></h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="om.html">Om meg</a></li>
+            <li><a href="tech.html">Teknologi</a></li>
+            <li><a href="yff.html">YFF</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="program.html">Programmering</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- PROGRAMMERING -->
+        <section id="programmering" class="section program">
+            <h2>Programmering</h2>
+
+            <h3>JavaScript</h3>
+
+            <h4>Loops</h4>
+            <p></p>
+
+            <br>
+
+            <h4>DOM</h4>
+            <div class="whiteline">
+                <h4>colorbox</h4>
+                <div class="colorbox">
+
+                    <div id="box1">
+                        <span id="color1"></span>
+                    </div>
+                    <div id="box2">
+                        <span id="color2"></span>
+                    </div>
+                </div>
+                <div class="dsd">
+                    <input type="button" value="Set color" id="button1">
+                    <input type="button" value="Random color" id="button2">
+                    <input type="button" value="Reset" id="button3">
+                </div>
+                <div class="tex">
+                    <input type="text" placeholder="color" id="text">
+                </div>
+            </div>
+
+            <div class="whiteline">
+                <h4>math.random</h4>
+                <input type="text" id="mathinput" placeholder="Skriv et tall">
+                <br>
+                <button id="ease">Easy*100</button> <button id="mid">Medium*1000</button> <button
+                    id="hard">Hard*10000</button>
+                <br>
+                <button id="mathbutton">gjett et tall</button>
+                <p id="mathresult"></p>
+            </div>
+            <div class="whiteline">
+                <h4>API MOVIE</h4>
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Søk etter en film...">
+                    <br>
+                    <button id="searchBtn">Søk</button>
+                </div>
+
+                <!-- Søkeresultat -->
+                <div id="results">
+                    <h2>Søkeresultat</h2>
+                    <div id="movieResult">
+                        <h2 id="name"></h2>
+                        <p id="release"></p>
+                        <p id="genre"></p>
+                        <p id="plot"></p>
+                        <img id="poster" src="" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <section>
+                <h4>Firebase</h4>
+                <div class="container">
+                    <div>
+                        <h1>Klassemeldinger</h1>
+                        <p class="subtitle">
+                            Del meldinger med klassen enkelt og raskt.
+                        </p>
+                    </div>
+
+                    <!-- Legg til melding -->
+                    <div class="card">
+                        <h2>Ny melding</h2>
+
+                        <form>
+                            <div class="input-group">
+                                <label for="name">Navn</label>
+                                <input type="text" id="name" placeholder="Skriv navnet ditt">
+                            </div>
+
+                            <div class="input-group">
+                                <label for="message">Melding</label>
+                                <textarea id="message" placeholder="Skriv en melding..."></textarea>
+                            </div>
+
+                            <button type="submit" id="btn" class="btn">
+                                Legg til melding
+                            </button>
+                            <!-- <button type="button" id="updateBtn" class="btn">
+          Oppdater melding
+        </button> -->
+                        </form>
+                    </div>
+
+                    <!-- Meldinger -->
+                    <div class="card">
+                        <h2>Meldinger</h2>
+
+                        <div class="message-list">
+
+                            <!-- <div class="message-card">
+          <div class="message-top">
+            <h3>Ola Nordmann</h3>
+            <span>10:30</span>
+          </div>
+
+          <p>
+            Husk å levere oppgaven innen fredag!
+          </p>
+
+          <div class="message-buttons">
+            <button class="edit-btn">Rediger</button>
+            <button class="delete-btn">Slett</button>
+          </div>
+        </div> -->
+
+                            <!-- <div class="message-card">
+          <div class="message-top">
+            <h3>Kari Hansen</h3>
+            <span>11:15</span>
+          </div>
+
+          <p>
+            Vi har prøve neste uke i JavaScript.
+          </p>
+
+          <div class="message-buttons">
+            <button class="edit-btn">Rediger</button>
+            <button class="delete-btn">Slett</button>
+          </div>
+        </div> -->
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+        </section>
+    </main>
+</body>
+
+<button class="left"><</button>
+        <button class="right">></button>
+
+        <script src="../JS/Program2.js" defer></script>
+        </body>
+
+</html>
