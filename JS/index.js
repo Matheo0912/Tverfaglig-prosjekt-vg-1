@@ -64,7 +64,7 @@ function autoScroll() {
             element.src = array[currentIndex];
         }
 
-        function start() {            
+        function start() {
             if (interval) return;
             interval = setInterval(() => {
                 currentIndex = (currentIndex + 1) % array.length;
@@ -141,9 +141,16 @@ function autoScroll() {
     ]
 
     const programimg3 = [
-        "../img/program/Firebase/fire1.png", "../img/program/Firebase/fire2.png", "../img/program/Firebase/fire3.png", "../img/program/Firebase/fire4.png",
-        "../img/program/Firebase/fire5.png", "../img/program/Firebase/fire6.png", "../img/program/Firebase/fire7.png", "../img/program/Firebase/fire8.png"
-    ]
+        "../img/program/Firebase/fire1.png",
+        "../img/program/Firebase/fire2.png",
+        "../img/program/Firebase/fire3.png",
+        "../img/program/Firebase/fire4.png",
+        "../img/program/Firebase/fire5.png",
+        "../img/program/Firebase/fire6.png",
+        "../img/program/Firebase/fire7.png",
+        "../img/program/Firebase/fire8.png"
+    ];
+
 
     const programimg4 = [
         "../img/program/math/math1.png", "../img/program/math/math2.png", "../img/program/math/math3.png", "../img/program/math/math4.png",
@@ -181,12 +188,12 @@ function autoScroll() {
     const sliderObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             const matchedSlider = sliders.find(s => s.element === entry.target);
-            
+
             if (matchedSlider) {
                 if (entry.isIntersecting) {
                     activeSlider = matchedSlider;
                     matchedSlider.start();
-                   
+
                 } else {
                     matchedSlider.stop();
                 }
