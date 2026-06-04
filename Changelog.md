@@ -5,3 +5,13 @@ tirsdag 26.05.2026: lagd forkjellige html fil per fag(classes folder) for å få
 Onsdag 27.05.2026: Begynt å skrive på hvert prosjekt som jeg har tatt medstrukturen: Hva skjer på bildene/videoen og hva lærte jeg. Jeg lagde ny fil struktur sånn at jeg lagde egen folder for css'en og JS'en, i img folderen så lagde jeg ny struktur sånn at navne på klassen er navnet til sub folderene inne i folderen.
 
 Torsdag 28.05.2026: oppdatert skrive struktur til: Hva skjer på bildene/videoen, hva lærte jeg og hva ble jeg stolt over. Har blitt ferdig med skriving på teknologi forståelse og yff. har funnet nye ting å ta med på media produksjon(animasjon, første oppgaven).
+
+Frdag 29.05.2026: Ble ferdig med å skrive på alt bortsett fra Programmering. Lagde funksjoner på JS for å bytte imgs automatisk, Gjorde sånn at du kunne pause og skru dem på igjen.
+
+Lørdag 30.05.2026: Jobbet med Programmering og skrvev koden for de gamle oppgavene vi hadde og oppdaterte dem til å bli bedre nesten helt selv, men det var bortkasttet siden det var bedre å ta bilder.
+
+Søndag 31.05.2026: lagde flere funksjoner på forkjellige ting som å skru av videor når du blar lengre ned, eller å kunne bla mellom bilder ved hjelp av arrowkeys(up, ned), Starta med reskriving På programmering.
+
+Mandag 01.05.2026: Ble ferdig med å skrive på programmering + med å oppdatere et par funksjoner.
+
+Onsdag 03.05.2026: jobbet med å skrive hva kunne jeg gjort bedre der det trengs + øving på alt.
